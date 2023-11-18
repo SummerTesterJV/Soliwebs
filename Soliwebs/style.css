@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+   
+}
+
+
+
+
+.contenedor-1 {
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    color: rgb(255, 255, 255); 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    left: 8%;
+    bottom: 15%;
+
+}
+
+.contenedor-1 h1{
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+.contenedor-1 p{
+    font-size: 20px;
+}
+
+
+.imagen_prisma img{
+    
+    width: 33%;
+    margin-left: 67%;
+}
+
+hr{
+    height: 2px;
+}
+
+
+
+.contenedor-2{
+    position: absolute;
+    color: white;
+    width: 40%;
+    bottom: -20%;
+    left: 4%;
+}
+
+.contenedor-2 h1{
+    font-size: 60px;
+   padding: 20px;
+   margin-bottom: -10px;
+}
+
+
+
+
+
+.Especialidades-temas    {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+    bottom: -108%;
+}
+
+.box {
+ 
+    flex: 1;
+    border: 1px solid #ffffff;
+    padding: 30px;
+    margin: 10px;
+   color: white;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.box:hover {
+   color: gold;
+    transform: scale(1.01);
+}
+
+
+
+
+
+
+.contenedor-3{
+    position: absolute;
+    margin-top: 65%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    width: 50%;
+}
+
+.contenedor-3 h1{
+    background-color: rgb(0, 0, 0);
+   
+    font-size: 3rem;
+    color: white;
+    
+}
+
+.nombres_3{
+    position: absolute;
+    width: 30%;
+    top: 222%;
+    left: 60%;
+    
+   
+}
+
+.box_nombres{
+    display: flex;
+  align-items: center;
+  padding: 6px;
+  
+   
+}
+
+.box_nombres h1{
+    font-size: 20px;
+    color: gold;
+}
+
+.box_nombres p{
+    position: absolute;
+    color: white;
+    margin-bottom: -80px;
+    margin-left: 80px;
+
+}
+
+.practicas{
+    position: absolute;
+    margin-top: 170%;
+    margin-left: 8%;
+}
+
+.contenedor_practicas{
+color: white;
+width: 50%;
+font-size: 15px;
+padding-bottom: 40px;
+margin-top: -0%;
+
+}
+
+.contenedor_practicas2{
+    color: white;
+    width: 50%;
+    font-size: 15px;
+    margin-top: 15%;
+    
+    }
+    
+
+.contenedor_practicas h2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding: 10px;
+    
+    }
+
+    .contenedor_practicas2 h2{
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        padding: 10px;
+        
+        }
+    
+
+    .imagen_prisma_2{
+    position: absolute;
+        width: 33%;
+        margin-top: 94%;
+        margin-left: 67%;
+    }
+    
+    .imagen_2{
+        position: absolute;
+        width: 33%;
+        margin-top: 10%;
+        margin-left: 67%;
+    }
+
+
+
+
+
+
+
+    /*************slider*************/
+
+
+    .carousel_ori{
+        position: absolute;
+        margin-top: 100%;
+        margin-left: 2%;
+    }
+
+    /*****footer****/
+
+    footer {
+        position: absolute;
+        
+        color: #fff;
+        padding: 20px;
+        height: 41%;
+        
+        text-align: center;
+        margin-top: 294%;
+        width: 100%;
+        
+    }
+    .footer-images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .circle-image {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin: 20px;
+        object-fit: cover;
+        
+    }
+    .footer-titles1 {
+        position: absolute;
+        font-size: 20px;
+        margin-left: 30%;
+    }
+
+    .footer-titles2 {
+        position: absolute;
+        font-size: 20px;
+        margin-left: 54%;
+    }
